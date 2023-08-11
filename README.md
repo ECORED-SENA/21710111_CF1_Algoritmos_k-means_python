@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/21710111_CF1_Algoritmos_k-means_python/](https://ecored-sena.github.io/21710111_CF1_Algoritmos_k-means_python/)
 
 #
 
