@@ -14,7 +14,7 @@
           .col-lg-auto.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/3.svg', alt='') 
           .col.my-3
-            p(data-aos="fade-down") Le damos la bienvenida al componente formativo denominado “#[b Introducción al #[i Machine Learning]]”, el cual hace parte del programa de formación complementaria “Algoritmo de agrupamiento no supervisado K-means con Python”. 
+            p(data-aos="fade-down") Le damos la bienvenida al componente formativo denominado “#[b Introducción al #[i Machine Learning]]”, el cual hace parte del programa de formación complementaria “Algoritmo de agrupamiento no supervisado #[i K-means] con Python”. 
             h4(data-aos="fade-down").mb-0 Para comenzar, preste atención al video que se muestra enseguida:  
       .col-lg-4.my-3    
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/4.svg', alt='') 
@@ -23,7 +23,10 @@
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)        
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/kKJQVNbk8N8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)        
+          figcaption Video. Introducción al Machine Learning
+
+
 
 </template>
 

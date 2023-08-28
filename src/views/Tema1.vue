@@ -17,7 +17,7 @@
     p(data-aos="fade-down").my-5 Sobre la implementación de sistemas de aprendizaje automático, es posible afirmar que:
     .row.justify-content-center.align-items-center.mb-4        
       .col-lg-3.my-3      
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/6.png', alt='')
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/6.png', alt='')
       .col-lg-7.my-3      
         LineaTiempoD.color-primario(data-aos="fade-left")
           p(numero="1" titulo="Escritura de programas") Las personas que los implementan, no escriben programas por sí mismos.         
@@ -33,29 +33,29 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 1.
           span Modelo #[i Machine Learning]
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/7.svg', alt='Esquema gráfico que da cuenta del modelo machine learning: Recolección y preparación de datos, ejecución de algoritmos para obtención de un modelo óptimo, Utilización del modelo obtenido.')
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/7.svg', alt='Esquema gráfico que da cuenta del modelo machine learning: Recolección y preparación de datos, ejecución de algoritmos para obtención de un modelo óptimo, Utilización del modelo obtenido.')
 
     h5(data-aos="fade-down").mb-4 Las máquinas de aprendizaje se dividen en tres diferentes tipos de aprendizaje: 
     .row.justify-content-center.mb-4          
       .col-lg-4.col-md-7.my-3(data-aos="fade-left")
         .bg3.px-3.brad.h-100
           .row.justify-content-center.align-items-center         
-            .col-lg-auto.my-2
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.svg', alt='') 
+            .col-auto.my-2
+              img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/8.svg', alt='') 
             .col.my-2
               h5.mb-0(data-aos="fade-down") Aprendizaje no supervisado
       .col-lg-4.col-md-7.my-3(data-aos="fade-down")
         .bg3.px-3.brad.h-100
           .row.justify-content-center.align-items-center         
-            .col-lg-auto.my-2
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='') 
+            .col-auto.my-2
+              img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/9.svg', alt='') 
             .col.my-2
               h5.mb-0(data-aos="fade-down") Aprendizaje supervisado 
       .col-lg-4.col-md-7.my-3(data-aos="fade-right")
         .bg3.px-3.brad.h-100
           .row.justify-content-center.align-items-center         
-            .col-lg-auto.my-2
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.svg', alt='') 
+            .col-auto.my-2
+              img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/10.svg', alt='') 
             .col.my-2
               h5.mb-0(data-aos="fade-down") Aprendizaje semisupervisado
            
@@ -74,12 +74,12 @@
             p Si se busca conocimiento o patrones entre un montón de datos, de los cuales no se conocen relaciones entre sus variables, no hay datos de referencia, entonces se está hablando de #[b aprendizaje no supervisado].    
           .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Algoritmos del aprendizaje no supervisado")
             h4 Algoritmos del aprendizaje no supervisado
-            p Entre algoritmos de aprendizaje no supervisado, existen el #[i clustering] o agrupamiento, #[i K-means] o #[i K-medias] y reglas de asociación.  
+            p Entre algoritmos de aprendizaje no supervisado, existen el #[i clustering] o agrupamiento, #[i K-means] o K-medias y reglas de asociación.  
           .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Modelos predictivos")
             h4 Modelos predictivos
             p En general, los modelos predictivos se aprenden de manera supervisada, mientras que los modelos descriptivos son producidos por técnicas de aprendizaje no supervisado.  
       .col-lg-3.my-3      
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/11.png', alt='')  
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/11.png', alt='')  
 
     Separador 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -87,23 +87,23 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.my-3      
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/12.png', alt='')   
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/12.png', alt='')   
       .col-lg-8.my-3     
         p(data-aos="fade-down") Los datos son el insumo más valioso cuando se habla de ciencia de datos y un término muy usado en la actualidad es el #[b #[i.t1 Big Data]] que, como su nombre lo indica, hace referencia a conjuntos de datos muy grandes.
         .bg4.px-4.mb-3(data-aos="flip-down")
           .row.justify-content-center.align-items-center         
             .col-lg-auto.my-3
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/13.png', alt='')           
+              img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/13.png', alt='')           
             .col.my-3
-              p.mb-0 Se han definido tres cualidades para #[b #[i Big Data]]: volumen, velocidad y variedad. Eentonces es posible ver que este implica grandes conjuntos de datos (volumen), de diversos tipos (variedad) y que se generan muy rápidamente (velocidad). 
+              p.mb-0 Se han definido tres cualidades para #[b #[i Big Data]]: volumen, velocidad y variedad. Entonces es posible ver que este implica grandes conjuntos de datos (volumen), de diversos tipos (variedad) y que se generan muy rápidamente (velocidad). 
 
         .row.justify-content-center.align-items-center         
-          .col-lg-auto.my-3
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/14.png', alt='')           
+          .col-auto.my-3
+            img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/14.png', alt='')           
           .col.my-3
             p.mb-0 La siguiente infografía muestra la relación entre cada concepto, preste atención:  
 
-    img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/15.svg', alt='')           
+    img.img-a.img-t.mb-5(data-aos="fade")(src='@/assets/curso/temas/t1-infog.svg', alt='La infografía representa la relación entre las cualidades del Big Data de la siguiente manera: En primer lugar, se aborda el aspecto del volumen mediante el registro de diversas fuentes como información de salud, transacciones de seguros, datos de sensores móviles y otros. En segundo lugar, se explora la cualidad de la variedad, incluyendo datos tanto estructurados como no estructurados, que abarcan una amplia gama de formatos y tipos de información. Por último, se analiza la importancia de la velocidad en el manejo de los datos, desde el procesamiento en lotes hasta la capacidad de trabajar con datos en tiempo real, near time y mediante streaming.')           
 
     h5(data-aos="fade-down").mb-5 A continuación, se mencionan eventos sobre volumen, velocidad y variedad: 
 
@@ -146,7 +146,7 @@
 
     .row.justify-content-center.align-items-center.mb-4         
       .col-lg-auto.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/27.png', alt='')           
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/27.png', alt='')           
       .col.my-3
         p.mb-0 Habiendo hablado de ciencia de datos, se debe conectar con el concepto de datos en informática, los cuales son representaciones simbólicas (vale decir: numéricas, alfabéticas, algorítmicas, etc.) de un determinado atributo o variable cualitativa o cuantitativa, o sea: la descripción codificada de un hecho empírico, un suceso, una entidad. 
 
@@ -154,7 +154,7 @@
 
     .row.justify-content-center.align-items-center.mb-4         
       .col-lg-4.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/28.png', alt='')
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/28.png', alt='')
       .col-lg-8.my-3(data-aos="fade-right") 
         AcordionA(tipo="a" clase-tarjeta="tarjeta bgac")
           div.ps-5(titulo="Cualitativas") 
@@ -184,7 +184,7 @@
                 p.mb-0 Presión arterial 
             p.mb-0 Pueden ser #[b discretas], si se representan por números enteros, o #[b continuas], si se representan con números reales.
 
-    h5(data-aos="fade-down").mb-5 En relación con la Big Data, se destacan algunos aspectos como:
+    h5(data-aos="fade-down").mb-5 En relación con la #[i Big Data], se destacan algunos aspectos como:
 
     .row.bg5.align-items-center.pt-3.mb-4
       .col-lg-12.col-12.px-lg-5.px-4.up
@@ -227,7 +227,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 2.
           span Extracto de datos de #[i dataset]
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/32.png', alt='Imagen de un dataset y sus respectivos datos, a través de los cuales se obtienen características, en este caso, de una especie de flor (Iris).')     
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/32.png', alt='Imagen de un dataset y sus respectivos datos, a través de los cuales se obtienen características, en este caso, de una especie de flor (Iris).')     
 
     .bg6  
       p(data-aos="fade-down").mb-5 En Python, usando Jupyter Lab, se pueden ver algunos tipos de variables usando el siguiente código:
@@ -236,7 +236,7 @@
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Figura 3.
             span Variables
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/33.svg', alt='Ilustración de un código usado en Phyton para la obtención de ciertas variables.')   
+          img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/33.svg', alt='Ilustración de un código usado en Phyton para la obtención de ciertas variables.')   
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.my-3     
@@ -244,7 +244,7 @@
         .bg7.p-4.mb-3(data-aos="flip-down")
           p(data-aos="fade-down").mb-0 La variable #[b #[i.t1 Species]] (especie) es de tipo #[b #[i.t1 object]], que puede ser de cualquier tipo, por ejemplo, texto; en este caso, representa una variable cualitativa.        
       .col-lg-4.my-3      
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/12.png', alt='')   
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/12.png', alt='')   
 
     Separador 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -252,32 +252,31 @@
                              
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.my-3      
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.png', alt='')   
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/34.png', alt='')   
       .col-lg-8.my-3     
         p(data-aos="fade-down") En el #[b #[i.t1 aprendizaje supervisado]] el objetivo es mapear una entrada con una salida, con valores correctos suministrados por un supervisor. Por su parte, en el #[b #[i.t1 aprendizaje no supervisado]] no existe ese supervisor y solo existen datos de entrada; aquí el objetivo es describir similitudes en los datos de entrada y así observar patrones que aparecen con más frecuencia que otros, entonces la idea es investigar qué es lo que sucede con estos datos y qué no.
         .bg4.px-4.mb-3(data-aos="flip-down")
           .row.justify-content-center.align-items-center         
             .col-lg-auto.my-3
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.png', alt='')           
+              img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/35.png', alt='')           
             .col.my-3
               p.mb-0 En términos estadísticos, lo que se hace es estudiar la densidad de los datos, agrupándolos en clústeres; todos los patrones, asociaciones, relaciones; y los clústeres son extraídos de los mismos datos.  
 
         .row.justify-content-center.align-items-center         
-          .col-lg-auto.my-3
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/36.png', alt='')           
+          .col-auto.my-3
+            img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/36.png', alt='')           
           .col.my-3
-            p.mb-0 Existen varias técnicas para realizar clustering basadas en agrupamiento con #[i K-Means]. A continuación, se presenta un #[i clustering] jerárquico:      
+            p.mb-0 Existen varias técnicas para realizar #[i clustering] basadas en agrupamiento con #[i K-Means]. A continuación, se presenta un #[i clustering] jerárquico:      
 
 
-    .bg8.p-5
+    .bg8.p-4.p-md-5
       .bgw.p-4.brad 
         SlyderE(indicadores="derecha")
           .row.justify-content-center
             .col-lg-5.my-3
               h4.t1 Agrupamiento jerárquico
               p Es un método para agrupar datos basándose en la distancia entre ellos, buscando que los datos que queden en un clúster sean lo más parecidos posibles. Este tipo de agrupaciones ayuda a las organizaciones, por ejemplo, a que sus precios, bienes, servicios y cualquier aspecto de sus negocios estén bien dirigidos a sus clientes.  
-
-              p Esta jerarquía muestra los datos similares a una estructura de árbol llamada dendrograma. A su vez, existen dos formas de agrupar los datos: aglomerante y divisivo          
+              p Esta jerarquía muestra los datos similares a una estructura de árbol llamada dendrograma. A su vez, existen dos formas de agrupar los datos: aglomerante y divisivo.
             .col-lg-7.my-3
               img.img-a.img-t(src='@/assets/curso/temas/38.png', alt='')       
           .row.justify-content-center
@@ -301,7 +300,7 @@
           .row.justify-content-center
             .col-lg-5.my-3
               h4.t1 Antes y después del #[i K-means] 
-              p En el caso de #[i K-means] o #[i K-medias], el algoritmo elige aleatoriamente una cantidad k de centroides iniciales que marcan el centro de cada clúster. Cada punto se ubica con su centroide más cercano, usando cualquier medida de distancia, tal como la distancia euclídea.          
+              p En el caso de #[i K-means] o K-medias, el algoritmo elige aleatoriamente una cantidad k de centroides iniciales que marcan el centro de cada clúster. Cada punto se ubica con su centroide más cercano, usando cualquier medida de distancia, tal como la distancia euclídea.          
             .col-lg-7.my-3
               img.img-a.img-t(src='@/assets/curso/temas/42.png', alt='')       
           .row.justify-content-center
@@ -316,12 +315,13 @@
                   p.mb-0 Es sencillo de implementar y aplicar.
                 li 
                   i.fas.fa-angle-right
-                  p.mb-0 Produce clústeres más definidos que el clustering jerárquico.
+                  p.mb-0 Produce clústeres más definidos que el #[i clustering] jerárquico.
                 li 
                   i.fas.fa-angle-right
                   p.mb-0 Puede manejar grandes datos.           
             .col-lg-7.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/43.png', alt='')                                                                         
+              img.img-a.img-t(src='@/assets/curso/temas/43.png', alt='')      
+
 </template>
 
 <script>

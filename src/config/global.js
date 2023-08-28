@@ -127,7 +127,7 @@ export default {
     {
       tema: '2. <i>Clustering</i>. ',
       referencia: 'Singh, S. (2017). <i>Iris.csv</i>. Kaggle.',
-      tipo: 'Dataset',
+      tipo: '<i>Dataset</i>',
       link: 'https://www.kaggle.com/datasets/saurabh00007/iriscsv',
     },
   ],
@@ -168,7 +168,7 @@ export default {
         'sistemas informáticos que pueden aprender como aprende un ser humano.',
     },
     {
-      termino: 'Machine Learning',
+      termino: '<i>Machine Learning</i>',
       significado: 'aprendizaje automático o máquinas de aprendizaje.',
     },
     {
@@ -222,7 +222,7 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de Línea de Producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -233,28 +233,28 @@ export default {
           nombre: 'Héctor Henry Jurado Soto',
           cargo: 'Experto Temático',
           centro:
-            'Regional Cauca – Centro de Teleinformática y Producción Industrial',
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Caterine Bedoya Mejía',
           cargo: 'Diseñadora Instruccional',
-          centro: 'Regional Distrito Capital – Centro de Gestión Industrial',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Metodóloga',
-          centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Darío González',
           cargo: 'Corrector de Estilo',
-          centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseñador Instruccional',
           centro:
-            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -262,28 +262,40 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
           nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Emilsen Alfonso Bautista',
-          cargo: 'Actividad Didáctica',
+          cargo: 'Actividad didáctica',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -291,22 +303,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

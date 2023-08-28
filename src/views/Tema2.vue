@@ -8,8 +8,7 @@
       h1 Aplicaciones de #[i clustering] de datos
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/44.png')})`}"
-      )
+        :style="{'background-image': `url(${require('@/assets/curso/temas/44.png')})`}")
       .bloque-texto-g__texto.p-5
         p.mb-0 La #[b #[i.t1 clusterización]] usando #[b #[i.t1 K-means]] tiene un espectro bastante amplio de aplicaciones muy útiles en todas las ramas de la ciencia, tecnología, salud, transporte, astronomía, industria, educación, etc. 
 
@@ -26,7 +25,7 @@
 
     h5(data-aos="fade-down").mb-5.t1 A continuación, se presenta la clasificación:
 
-    .bg8.p-5
+    .bg8.p-4.p-md-5
       .bgw.p-4.brad 
         SlyderE(indicadores="derecha")
           .row.justify-content-center
@@ -47,9 +46,8 @@
             .col-lg-5.my-3
               h4.t1 Segmentación de clientes 
               p.mb-0 La segmentación de clientes es una de las aplicaciones más importantes del aprendizaje no supervisado, las empresas pueden identificar varios segmentos de clientes y luego dirigirse a grupos de usuarios potenciales. Lo que se hace es dividir una base de datos de clientes en grupos de personas que tienen semejanzas en género, edad, hábitos de consumo, intereses personales. 
-        
             .col-lg-7.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/48.png', alt='Imagen que ilustra una segmentación: en ella, se selecciona un individuo de entre un segmento de tipo de personas; a quien se le ofrece el producto según necesidades identificadas por su tipo.')
+              img.img-a.img-t(src='@/assets/curso/temas/48.svg', alt='Imagen que ilustra una segmentación: en ella, se selecciona un individuo de entre un segmento de tipo de personas; a quien se le ofrece el producto según necesidades identificadas por su tipo.')
           .row.justify-content-center
             .col-lg-5.my-3
               h4.t1 Beneficios de la segmentación 
@@ -63,9 +61,8 @@
             .col-lg-5.my-3
               h4.t1 Congestión de tráfico 
               p.mb-0 El número de vehículos en las ciudades se incrementa de forma abrumadora, originando con esto congestión vehicular y, por tanto, aumentando la contaminación del medio ambiente, pérdidas de tiempo y costos en combustible, entonces es esencial   monitorear  el tráfico en las autopistas, identificando las más congestionadas, identificando patrones de congestión  y creando una clasificación en  segmentos de tráfico; esto ayuda a entidades estatales de tránsito  a optimizar el tránsito en dichas zonas. 
-        
             .col-lg-7.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/50.png', alt='Imagen que ejemplifica el tratamiento de los datos del tráfico en la base de datos y, luego de la clusterización, cómo toman decisiones las autoridades del tránsito.')
+              img.img-a.img-t(src='@/assets/curso/temas/50.svg', alt='Imagen que ejemplifica el tratamiento de los datos del tráfico en la base de datos y, luego de la clusterización, cómo toman decisiones las autoridades del tránsito.')
 
     Separador 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -84,32 +81,36 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 4.
           span Aprendizaje supervisado
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/53.svg', alt='Esquema que ilustra dos planos, según las dos clases de técnicas de aprendizaje supervisado: Clasificación y Regresión. ')    
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/fig4.svg', alt='Esquema que ilustra dos planos, según las dos clases de técnicas de aprendizaje supervisado: Clasificación y Regresión. ')    
 
-    .bg10
-      .row.justify-content-center.align-items-center.mb-4         
-        .col-lg-auto.my-3
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/54.svg', alt='')           
-        .col.my-3
-          h4 El modelo entrenado
-          p.mb-0 Puede ser utilizado para predecir salidas de cualquier conjunto nuevo de datos de entrada. Estas técnicas se definen como supervisados  puesto que el modelo aprende de muestras de datos y sus salidas  en la fase de entrenamiento.      
-      h5(data-aos="fade-down").mb-5 A continuación, se muestran más generalidades y aspectos destacados sobre las técnicas del aprendizaje supervisado:
+    .row.fondo-tema2-bg10.align-items-center.mb-4
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.justify-content-center.align-items-center
+          
+          .row.justify-content-center.align-items-center.mb-4         
+            .col-lg-auto.my-3(data-aos="fade-right")
+              img.img-a.img-t(src='@/assets/curso/temas/54.svg', alt='')           
+            .col.my-3(data-aos="fade-left")
+              h4 El modelo entrenado
+              p.mb-0 Puede ser utilizado para predecir salidas de cualquier conjunto nuevo de datos de entrada. Estas técnicas se definen como supervisados  puesto que el modelo aprende de muestras de datos y sus salidas  en la fase de entrenamiento.      
+          
+          h5.mb-4(data-aos="fade") A continuación, se muestran más generalidades y aspectos destacados sobre las técnicas del aprendizaje supervisado:
 
-      TabsA.color-acento-botones
-        .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Regresión")
-          .row.justify-content-center.align-items-center
-            .col.my-3        
-              h4 Regresión
-              p.mb-0 Consiste en la estimación de un valor numérico con base en los datos de entrada; es una de las técnicas más usadas en #[i Machine Learning]. Por ejemplo, se podría generar un modelo de regresión cuya #[b variable Y] dependiente será el ingreso del empleado y #[b X] sería la variable independiente o explicativa; #[b X] puede estar relacionada con la educación de ese empleado, su experiencia, estrato, etc. En la fórmula presentada, se pretende estimar el valor #[b m], el cual es la pendiente de la regresión, y #[b B], que es el intercepto en eje #[b Y].                     
-            .col-lg-auto.my-3
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/55.svg', alt='')           
-        .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Clasificación")
-          .row.justify-content-center.align-items-center
-            .col.my-3        
-              h4 Clasificación
-              p.mb-0 Su objetivo es predecir etiquetas de salida de naturaleza categórica, por tanto, cada salida es una variable discreta entre un número limitado de resultados. Algunos ejemplos de aplicaciones de algoritmos de clasificación son la detección de fraudes, la detección de #[i spam], clasificación de enfermedades o diagnósticos basados en edad, sexo, azúcar en la sangre, etc., clasificación de imágenes, identificación de caracteres, clasificación de posibles clientes.                    
-            .col-lg-auto.my-3
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/56.svg', alt='') 
+          TabsA.color-acento-botones(data-aos="fade-down")
+            .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Regresión")
+              .row.justify-content-center.align-items-center
+                .col.my-3        
+                  h4 Regresión
+                  p.mb-0 Consiste en la estimación de un valor numérico con base en los datos de entrada; es una de las técnicas más usadas en #[i Machine Learning]. Por ejemplo, se podría generar un modelo de regresión cuya #[b variable Y] dependiente será el ingreso del empleado y #[b X] sería la variable independiente o explicativa; #[b X] puede estar relacionada con la educación de ese empleado, su experiencia, estrato, etc. En la fórmula presentada, se pretende estimar el valor #[b m], el cual es la pendiente de la regresión, y #[b B], que es el intercepto en eje #[b Y].                     
+                .col-lg-auto.my-3
+                  img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/55.svg', alt='')           
+            .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Clasificación")
+              .row.justify-content-center.align-items-center
+                .col.my-3        
+                  h4 Clasificación
+                  p.mb-0 Su objetivo es predecir etiquetas de salida de naturaleza categórica, por tanto, cada salida es una variable discreta entre un número limitado de resultados. Algunos ejemplos de aplicaciones de algoritmos de clasificación son la detección de fraudes, la detección de #[i spam], clasificación de enfermedades o diagnósticos basados en edad, sexo, azúcar en la sangre, etc., clasificación de imágenes, identificación de caracteres, clasificación de posibles clientes.                    
+                .col-lg-auto.my-3
+                  img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/56.svg', alt='') 
 
     Separador 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -120,7 +121,7 @@
           p.mb-0 #[b.t1 El aprendizaje no supervisado] tiene la misión de descubrir similitudes, patrones o uniformidades dentro de los datos de entrada; en este caso, no existe un supervisor que etiquete los datos. Los algoritmos de este tipo de aprendizaje forman clústeres en forma autónoma y asignan observaciones a estos clústeres.  
    
       .col-lg-4.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/57.png', alt='') 
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/57.png', alt='') 
 
       .col-lg-4.my-3(data-aos="fade-left")
         .bg12.p-3.j.brad.h-100
@@ -128,11 +129,11 @@
 
     .row.justify-content-center.align-items-center.mb-4         
       .col-lg-4.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/58.png', alt='')
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/58.png', alt='')
       .col-lg-8.my-3(data-aos="fade-right")
         .row.justify-content-center.align-items-center
-          .col-lg-auto.my-3
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/59.png', alt='')        
+          .col-auto.my-3
+            img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/59.png', alt='')        
           .col.my-3 
             p.mb-0 Un algoritmo no supervisado aprende de un modelo de clústeres a partir de los datos de entrenamiento que se pueden utilizar más tarde para asignar nuevos datos a los clústeres.                     
 
@@ -151,7 +152,7 @@
     .bg4.px-4.mb-3(data-aos="flip-down")
       .row.justify-content-center.align-items-center         
         .col-lg-auto.my-3
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/60.png', alt='')           
+          img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/60.png', alt='')           
         .col.my-3
           p.mb-0 Por medio de un ejemplo en Python y distancia euclídea, se identificarán los estados más similares en Estados Unidos, en cuanto a porcentaje de asaltos, asesinatos y secuestros por cada 100.000 habitantes, para cada uno de los 50 estados, usando el código fuente en Python. Este código fuente se puede ejecutar usando #[b #[i Jupyter lab]].
 
@@ -162,18 +163,18 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-left")
           h5 Figura 5.
           span Resultado 1 de ejemplo
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/61.svg', alt='Imagen de tabla de resultados del ejemplo propuesto: Detalla los estados implicados, su cifras y distancias.')         
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/61.svg', alt='Imagen de tabla de resultados del ejemplo propuesto: Detalla los estados implicados, su cifras y distancias.')         
       .col-lg-5.up.my-3
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 6.
           span Resultado 2 de ejemplo
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/62.svg', alt='Imagen de tabla de resultados del ejemplo propuesto: Detalla los estados implicados, su cifras y distancias.')
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/62.svg', alt='Imagen de tabla de resultados del ejemplo propuesto: Detalla los estados implicados, su cifras y distancias.')
 
     p(data-aos="fade-down").mb-5 Los estados con mayor distancia y, por tanto, completamente diferentes en porcentaje de asaltos, asesinatos y secuestros son Vermont y Florida, que presentan una distancia euclidiana calculada de 6.14, estos estarán en clústeres separados.   
 
     .row.justify-content-center.align-items-center.mb-4           
       .col-lg-4.up.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/63.svg', alt='')         
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/63.svg', alt='')         
       .col-lg-8.up.my-3 
         .bg12.p-4.brad.mb-4(data-aos="fade-down")
           p.mb-0 Los estados con menor distancia y, por tanto, muy similares en porcentaje de asaltos, asesinatos y secuestros son New Hampshire y Iowa, que presentan una distancia euclidiana calculada de 0.21; estos podrían estar en el mismo clúster de porcentaje de asaltos, asesinatos y secuestros. 
@@ -183,7 +184,7 @@
             .titulo-sexto.color-acento-contenido(data-aos="fade-left")
               h5 Figura 7.
               span Distancia euclídea
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/64.svg', alt='Gráfica que evidencia, según el ejemplo propuesto, los estados con mayor distancia y los estados con menor distancia.') 
+            img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/64.svg', alt='Gráfica que evidencia, según el ejemplo propuesto, los estados con mayor distancia y los estados con menor distancia.') 
 
     p(data-aos="fade-down").mb-4 La industria 4.0 va tomando gran importancia en estos últimos años; uno de sus objetivos es que cualquier proceso de producción, sea cual sea, esté completamente automatizado, evitando en lo posible que las personas trabajen en forma manual y dejando que las máquinas o equipos trabajen por sí solos, traduciendo esto en reducción de costos, seguridad, eficiencia y productividad en los resultados.
     .row.justify-content-center.align-items-end
@@ -191,7 +192,7 @@
         .bg13.p-4.brad(data-aos="fade-down")
           p.mb-0 Pero para llevar a cabo todo esto se requieren datos y estos datos no trabajan solos, existe el aprendizaje automático, que aprende de los datos que recibe constantemente, realiza predicciones, identifica patrones y es capaz de obtener conocimiento y conclusiones.                 
       .col-lg-4.up.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/65.svg', alt='')         
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/65.svg', alt='')         
 
     
 </template>
