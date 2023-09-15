@@ -33,7 +33,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 1.
           span Modelo #[i Machine Learning]
-        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/7.svg', alt='Esquema gráfico que da cuenta del modelo machine learning: Recolección y preparación de datos, ejecución de algoritmos para obtención de un modelo óptimo, Utilización del modelo obtenido.')
+        img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/fig1.svg', alt='Esquema gráfico que da cuenta del modelo machine learning: Recolección y preparación de datos, ejecución de algoritmos para obtención de un modelo óptimo, Utilización del modelo obtenido.')
 
     h5(data-aos="fade-down").mb-4 Las máquinas de aprendizaje se dividen en tres diferentes tipos de aprendizaje: 
     .row.justify-content-center.mb-4          
@@ -242,7 +242,7 @@
       .col-lg-8.my-3     
         p(data-aos="fade-down") Se observan, después de imprimir los tipos de datos de iris, las variables sepal_length (longitud del sépalo), sepal_width (ancho de sépalo), petal_length (longitud de pétalo), petal_width (ancho de pétalo), que son de tipo float64 y, por tanto, se habla de variables cuantitativas.
         .bg7.p-4.mb-3(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 La variable #[b #[i.t1 Species]] (especie) es de tipo #[b #[i.t1 object]], que puede ser de cualquier tipo, por ejemplo, texto; en este caso, representa una variable cualitativa.        
+          p(data-aos="fade-down").mb-0 La variable #[b #[i.t1 species]] (especie) es de tipo #[b #[i.t1 object]], que puede ser de cualquier tipo, por ejemplo, texto; en este caso, representa una variable cualitativa.        
       .col-lg-4.my-3      
         img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/12.png', alt='')   
 
@@ -302,7 +302,7 @@
               h4.t1 Antes y después del #[i K-means] 
               p En el caso de #[i K-means] o K-medias, el algoritmo elige aleatoriamente una cantidad k de centroides iniciales que marcan el centro de cada clúster. Cada punto se ubica con su centroide más cercano, usando cualquier medida de distancia, tal como la distancia euclídea.          
             .col-lg-7.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/42.png', alt='')       
+              img.img-a.img-t(src='@/assets/curso/temas/slider1-5.svg', alt='')       
           .row.justify-content-center
             .col-lg-5.my-3
               h4.t1 Ventajas 
@@ -320,7 +320,7 @@
                   i.fas.fa-angle-right
                   p.mb-0 Puede manejar grandes datos.           
             .col-lg-7.my-3
-              img.img-a.img-t(src='@/assets/curso/temas/43.png', alt='')      
+              img.img-a.img-t(src='@/assets/curso/temas/slider1-6.svg', alt='')      
 
 </template>
 

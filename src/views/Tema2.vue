@@ -38,7 +38,7 @@
           .row.justify-content-center
             .col-lg-5.my-3
               h4.t1 Detección de defectos de fábrica 
-              p.mb-0 Una aplicación de #[i clusterización] con #[i K-means] es la detección de defectos de fábrica, reconociendo patrones. La figura muestra la captura de imágenes, procesamiento de imágenes, modelado y clasificación del objeto como bueno o defectuoso. 
+              p.mb-0 Una aplicación de #[i clusterización] con #[i K-means] es la detección de defectos de fábrica, reconociendo patrones. La imagen muestra la captura de imágenes, procesamiento de imágenes, modelado y clasificación del objeto como bueno o defectuoso. 
         
             .col-lg-7.my-3
               img.img-a.img-t(src='@/assets/curso/temas/47.png', alt='Gráfica que ejemplifica la captura de imágenes, su procesamiento, modelado y clasificación como bueno o defectuoso. ')
@@ -64,7 +64,9 @@
             .col-lg-7.my-3
               img.img-a.img-t(src='@/assets/curso/temas/50.svg', alt='Imagen que ejemplifica el tratamiento de los datos del tráfico en la base de datos y, luego de la clusterización, cómo toman decisiones las autoridades del tránsito.')
 
+
     Separador 
+
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.1 Modelos de clasificación 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
@@ -113,7 +115,7 @@
                   img.img-a.img-t(data-aos="fade")(src='@/assets/curso/temas/56.svg', alt='') 
 
     Separador 
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2 Algoritmos no supervisados
     .row.justify-content-center.mb-4         
       .col-lg-4.my-3(data-aos="fade-right")

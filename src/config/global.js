@@ -125,7 +125,7 @@ export default {
       link: 'https://docs.anaconda.com/anaconda/install/windows/',
     },
     {
-      tema: '2. <i>Clustering</i>. ',
+      tema: '1.2 <i>Clustering</i> ',
       referencia: 'Singh, S. (2017). <i>Iris.csv</i>. Kaggle.',
       tipo: '<i>Dataset</i>',
       link: 'https://www.kaggle.com/datasets/saurabh00007/iriscsv',
@@ -174,12 +174,12 @@ export default {
     {
       termino: '<i>K-means</i>',
       significado:
-        'lenguaje de alto nivel usado para construir todo tipo de aplicaciones y muy usado en ciencia de datos.',
+        'algoritmo de clasificación no supervisada (clusterización) que agrupa objetos en k grupos basándose en sus características. Tiene lenguaje de alto nivel usado para construir todo tipo de aplicaciones y muy usado en ciencia de datos.',
     },
     {
       termino: 'Python',
       significado:
-        'proceso criptográfico que proporciona comunicaciones seguras a través de las redes, haciendo que la información entre extremos se transporte en forma segura, mediante uso de criptografía.',
+        'es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning.',
     },
   ],
   referencias: [
