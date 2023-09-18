@@ -179,7 +179,7 @@ export default {
     {
       termino: 'Python',
       significado:
-        'es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning.',
+        'es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de <i>software</i>, la ciencia de datos y el <i>machine learning</i>.',
     },
   ],
   referencias: [
